@@ -1,4 +1,4 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-  const taskList = new TaskList();
-});
+  console.log('DOM HAS LOADED')
+})
