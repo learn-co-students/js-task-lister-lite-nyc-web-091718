@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     newTaskLiTag.appendChild(deleteButton)
 
     deleteButton.addEventListener('click', function () {
+      console.log(appendedLi)
+      debugger
       appendedLi.remove()
 
     })
